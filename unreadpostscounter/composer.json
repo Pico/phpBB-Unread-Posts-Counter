@@ -1,0 +1,22 @@
+{
+    "name": "pico88/unreadpostcounter",
+    "type": "phpbb3-extension",
+    "description": "An extension for phpBB 3.1 that will count unread post.",
+    "homepage": "https://github.com/Pico88/phpBB-Unread-Posts-Counter",
+    "version": "1.0.0",
+    "time": "2013-08-10",
+    "licence": "GPLv2",
+    "authors": [
+        {
+            "name": "Pico88",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "phpbb": "3.1.0-dev",
+        "php": "5.3.0"
+    },
+    "extra": {
+        "display-name": "Unread post counter"
+    }
+}
