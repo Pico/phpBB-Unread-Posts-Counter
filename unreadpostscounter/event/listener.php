@@ -7,13 +7,14 @@
 *
 */
 
+namespace pico88\unreadpostscounter\event;
+
 /**
 * @ignore
 */
-
 if (!defined('IN_PHPBB'))
 {
-    exit;
+	exit;
 }
 
 /**
@@ -21,7 +22,7 @@ if (!defined('IN_PHPBB'))
 */
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 
-class phpbb_ext_pico88_unreadpostscounter_event_listener implements EventSubscriberInterface
+class listener implements EventSubscriberInterface
 {
 	/**
 	* Get subscribed events
